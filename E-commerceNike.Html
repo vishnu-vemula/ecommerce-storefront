@@ -1,231 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- ===== BOXICONS ===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="E-commerceNike.css">
-
-        <title>Responsive Ecommerce Website</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
- <nav class="nav bd-grid">
-<a href='#' class="Nav_logo">
- FOOT.
-</a>
-<div class="nav-menu" id='nav-menu'>
-<ul class="nav_list">
-    <li class="nav-item"><a href="#" class="nav_link">Home</a></li>
-    <li class="nav-item"><a href="#" class="nav_link">featured</a></li>
-    <li class="nav-item"><a href="#" class="nav_link">Women</a></li>
-    <li class="nav-item"><a href="#" class="nav_link">New</a></li>
-    <li class="nav-item"><a href="#" class="nav_tank"><i class="bx bx-shopping-bag"></i>Shop</a></li>
-
-</ul>
-</div>
-<div class="nav_shop">
-
-</div>
-</nav>
-
-</header>
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home_container" id="bd-grid">
-                <div class="home" id="home">
-                    <div class="home_sneaker">
-                    <div class="home_shape">
-<img src="imghome.png" alt="" class="home_img">
-
-                    </div>
-                </div>
-                    <div class="home_data">
-                       <span class="home_new">
-                           New in
-                       </span> 
-                       <h1 class="home_title">
-                           AIR FOAM
-                          <br> NKRY-3670
-                       </h1>
-                       <p class="Home_description">
-                           Explore the new collection of Sneakers
-                       </p>
-                       <a href="#" class="button">Explore Now
-                       </a>                    </div>
-                
-                </div>
-            </section>
-            <!--===== FEATURED PRODUCTS =====-->
-            <section class="featured section" id="featured">
-                <h2 class="Section-title">FEATURED</h2>
-            <div class="featured_container bd-grid">
-             
-                    <article class="Sneaker">
-                        <div class="sneaker_sale">Sale</div>
-                   <img class="sneakers_img" src="featured3.png" >
-                   <span class="sneaker_name">Nike Jordon</span>  
-                   <span class="sneaker_price">$99.99</span>              
-                 <a href="" class="button-light"><i class='bx bxs-cart'></i>Add to Cart</a>
-                    </article>
-                    <article class="Sneaker">
-                        <div class="sneaker_sale">Sale</div>
-                   <img class="sneakers_img" src="featured2.png" >
-                   <span class="sneaker_name">Nike Jordon</span>  
-                   <span class="sneaker_price">$99.99</span>              
-                 <a href="" class="button-light"><i class='bx bxs-cart'></i>Add to Cart</a>
-                    </article>
-                    
-                    <article class="Sneaker">
-                        <div class="sneaker_sale">Sale</div>
-                   <img class="sneakers_img" src="featured1.png" >
-                   <span class="sneaker_name">Nike Jordon</span>  
-                   <span class="sneaker_price">$99.99</span>              
-                 <a href="" class="button-light"><i class='bx bxs-cart'></i>Add to Cart</a>
-                    </article>        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Foot. footwear collection — premium sneakers and everyday essentials.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="E-commerceNike.css">
+    <title>Foot. | Modern footwear for every day</title>
+</head>
+<body>
+    <div class="announcement">Free shipping on orders over $75</div>
+    <header class="l-header" id="top">
+        <nav class="nav container" aria-label="Primary navigation">
+            <a href="#home" class="nav__logo" aria-label="Foot. home">Foot<span>.</span></a>
+            <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+                <i class="bx bx-menu" aria-hidden="true"></i>
+            </button>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link nav__link--active">Home</a></li>
+                    <li><a href="#featured" class="nav__link">Featured</a></li>
+                    <li><a href="#women" class="nav__link">Women</a></li>
+                    <li><a href="#new" class="nav__link">New arrivals</a></li>
+                </ul>
+                <button class="nav__cart" type="button" aria-label="Shopping bag, 0 items">
+                    <i class="bx bx-shopping-bag" aria-hidden="true"></i>
+                    <span class="cart-count">0</span>
+                </button>
             </div>
-    
-            </section>
-             <!--===== COLLECTION =====-->
-             <section class="collection section">
-                <div class="collection_container bd-grid">
-                  
-                    <div class="collection_card">
-                        <div class="collection_data">
-                            <h3 class="collection_name">
-Nike
-                            </h3>
-                            <p class="collection_description">
-New Collection 2020
-                            </p>
-                            
-                            <a href="nike.com" class="button-light-1">
-Buy now<i class="bx bx-right-arrow-alt button-icon"></i>
-                            </a>
-                            
-                            
-                            
-                        </div>
-            <img src="collection1.png" alt="" class="collection_img">
-                    
-                    </div>
-                    <div class="collection_card">
-                        <div class="collection_data">
-                            <h3 class="collection_name">
-addidas
-                            </h3>
-                            <p class="collection_description">
-New Collection
-                            </p>
-                            
-                            <a href="nike.com" class="button-light-1">
-Buy now<i class="bx bx-right-arrow-alt button-icon"></i>
-                            </a>
-                            
-                            
-                            
-                        </div>
-            <img src="collection2.png" alt="" class="collection_img">
-                    
-                    </div>
-                   
-                </div>
-            </section>
+        </nav>
+    </header>
 
+    <main>
+        <section class="hero container" id="home">
+            <div class="hero__content">
+                <p class="eyebrow">New season / 2024</p>
+                <h1>Move with<br><em>intention.</em></h1>
+                <p class="hero__description">Thoughtfully designed sneakers that carry you through every part of your day.</p>
+                <a href="#featured" class="button">Explore collection <i class="bx bx-right-arrow-alt" aria-hidden="true"></i></a>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__shape"></div>
+                <img src="imghome.png" alt="White and orange lifestyle sneaker" class="hero__image">
+                <span class="hero__label">01 / 04</span>
+            </div>
+        </section>
 
-            <!--===== Woman =====-->
-            <section class="offer section">
-                <section class="featured section" id="featured">
-                    <h2 class="Section-title">WOMAN'S SHOES</h2>
-                <div class="woman_container bd-grid">
-                 
-                        <article class="Sneaker">
-                            <div class="sneaker_sale">Sale</div>
-                       <img class="sneakers_img" src="women1 (1).png" >
-                       <span class="sneaker_name">Nike Jordon</span>  
-                       <span class="sneaker_price">$99.99</span>              
-                     <a href="" class="button-light"><i class='bx bxs-cart'></i>Add to Cart</a>
-                        </article>
-                        <article class="Sneaker">
-                            <div class="sneaker_sale">Sale</div>
-                       <img class="sneakers_img" src="women2.png" >
-                       <span class="sneaker_name">Nike Jordon</span>  
-                       <span class="sneaker_price">$99.99</span>              
-                     <a href="" class="button-light"><i class='bx bxs-cart'></i>Add to Cart</a>
-                        </article>
-                        
-                        <article class="Sneaker">
-                            <div class="sneaker_sale">Sale</div>
-                       <img class="sneakers_img" src="women3.png" >
-                       <span class="sneaker_name">Nike Jordon</span>  
-                       <span class="sneaker_price">$99.99</span>              
-                     <a href="" class="button-light"><i class='bx bxs-cart'></i>Add to Cart</a>
-                        </article>        
-                        
-               
-                    </div>
-                    <div class="woman_container bd-grid">
-                    <article class="woman">
-                        <div class="sneaker_sale">Sale</div>
-                   <img class="sneakers_img" src="women4.png" >
-                   <span class="sneaker_name">Nike Jordon</span>  
-                   <span class="sneaker_price">$99.99</span>              
-                 <a href="" class="button-light"><i class='bx bxs-cart'></i>Add to Cart</a>
-                    </article> 
-                </div>
-                
-            </section>
-<!-- OFFER -->
-<!-- <section class="offer section">
-    <div class="offer_container bd-grid">
-        <div class="offer_data">
-            <h3 class="offer_title">
-                50% OFF
-                                            </h3>
-                                            <p class="offer_description">
-                IN Adidas SmartStore
-                                            </p>
-                                            <a href="nike.com" class="button">
-                                                <i class="bx bx-shopping-bag"></i>Shop now
-                                            </a> 
-                                            <img src="offert.png" class="offer_img">
+        <section class="section container" id="featured">
+            <div class="section-heading">
+                <div><p class="eyebrow">Curated for you</p><h2>Featured pieces</h2></div>
+                <a href="#new" class="text-link">View all <i class="bx bx-right-arrow-alt" aria-hidden="true"></i></a>
+            </div>
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-card__media"><span class="badge">Sale</span><img src="featured3.png" alt="Nike Jordan sneaker"></div>
+                    <div class="product-card__details"><h3>Jordan Rise</h3><p>Everyday low-top</p><strong>$99.99</strong><button class="add-to-cart" type="button" data-product="Jordan Rise" aria-label="Add Jordan Rise to cart"><i class="bx bx-plus" aria-hidden="true"></i></button></div>
+                </article>
+                <article class="product-card">
+                    <div class="product-card__media"><span class="badge">Sale</span><img src="featured2.png" alt="Black Nike Jordan sneaker"></div>
+                    <div class="product-card__details"><h3>Air Motion</h3><p>Lightweight runner</p><strong>$119.99</strong><button class="add-to-cart" type="button" data-product="Air Motion" aria-label="Add Air Motion to cart"><i class="bx bx-plus" aria-hidden="true"></i></button></div>
+                </article>
+                <article class="product-card">
+                    <div class="product-card__media"><span class="badge">New</span><img src="featured1.png" alt="White and red Nike sneaker"></div>
+                    <div class="product-card__details"><h3>City Court</h3><p>Street-ready comfort</p><strong>$109.99</strong><button class="add-to-cart" type="button" data-product="City Court" aria-label="Add City Court to cart"><i class="bx bx-plus" aria-hidden="true"></i></button></div>
+                </article>
+            </div>
+        </section>
 
-        </div>
-    </div>
-</section>
- -->
+        <section class="collections container" aria-label="Collections">
+            <a href="#new" class="collection-card collection-card--dark"><div><p class="eyebrow">The essentials</p><h2>Nike<br><em>everyday.</em></h2><span class="text-link text-link--light">Shop collection <i class="bx bx-right-arrow-alt" aria-hidden="true"></i></span></div><img src="collection1.png" alt="Nike collection sneaker"></a>
+            <a href="#new" class="collection-card"><div><p class="eyebrow">Designed to move</p><h2>Adidas<br><em>form.</em></h2><span class="text-link">Shop collection <i class="bx bx-right-arrow-alt" aria-hidden="true"></i></span></div><img src="collection2.png" alt="Adidas collection sneaker"></a>
+        </section>
 
+        <section class="section container" id="women">
+            <div class="section-heading"><div><p class="eyebrow">Made for your pace</p><h2>Women's edit</h2></div><a href="#new" class="text-link">View all <i class="bx bx-right-arrow-alt" aria-hidden="true"></i></a></div>
+            <div class="product-grid product-grid--four">
+                <article class="product-card"><div class="product-card__media"><span class="badge">Sale</span><img src="women1 (1).png" alt="Women's Nike sneaker"></div><div class="product-card__details"><h3>Nova Court</h3><p>Classic court style</p><strong>$99.99</strong><button class="add-to-cart" type="button" data-product="Nova Court" aria-label="Add Nova Court to cart"><i class="bx bx-plus" aria-hidden="true"></i></button></div></article>
+                <article class="product-card"><div class="product-card__media"><span class="badge">New</span><img src="women2.png" alt="Women's white sneaker"></div><div class="product-card__details"><h3>Studio Lift</h3><p>All-day platform</p><strong>$114.99</strong><button class="add-to-cart" type="button" data-product="Studio Lift" aria-label="Add Studio Lift to cart"><i class="bx bx-plus" aria-hidden="true"></i></button></div></article>
+                <article class="product-card"><div class="product-card__media"><span class="badge">Sale</span><img src="women3.png" alt="Women's lifestyle sneaker"></div><div class="product-card__details"><h3>Cloud Runner</h3><p>Soft performance</p><strong>$124.99</strong><button class="add-to-cart" type="button" data-product="Cloud Runner" aria-label="Add Cloud Runner to cart"><i class="bx bx-plus" aria-hidden="true"></i></button></div></article>
+                <article class="product-card"><div class="product-card__media"><span class="badge">New</span><img src="women4.png" alt="Women's pink sneaker"></div><div class="product-card__details"><h3>Blush Pace</h3><p>Lightweight daily wear</p><strong>$104.99</strong><button class="add-to-cart" type="button" data-product="Blush Pace" aria-label="Add Blush Pace to cart"><i class="bx bx-plus" aria-hidden="true"></i></button></div></article>
+            </div>
+        </section>
 
-            <!--===== NEW ARRIVALS =====-->
-            <section class="featured section" id="new">
-                
-            </section>
+        <section class="newsletter container" id="new">
+            <div><p class="eyebrow">Stay in step</p><h2>First access to<br><em>new drops.</em></h2></div>
+            <form class="newsletter__form"><label class="sr-only" for="email">Email address</label><input type="email" id="email" placeholder="Your email address" required><button class="button" type="submit">Subscribe <i class="bx bx-right-arrow-alt" aria-hidden="true"></i></button><p class="form-message" role="status"></p></form>
+        </section>
+    </main>
 
-            <!--===== NEWSLETTER =====-->
-            <section class="newsletter section" id="suscribe">
-                
-            </section>
-
-            <!--===== SPONSORS =====-->
-            <section class="sponsors section">
-                
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer section">
-            
-        </footer>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js">
-        
-        
-        </script>
-    </body>
+    <footer class="footer">
+        <div class="container footer__content"><a href="#top" class="nav__logo">Foot<span>.</span></a><p>Considered footwear for everyday movement.</p><div class="footer__links"><a href="#featured">Shop</a><a href="#women">Women</a><a href="#new">Newsletter</a></div><p class="footer__copyright">© 2024 Foot. All rights reserved.</p></div>
+    </footer>
+    <script src="main.js"></script>
+</body>
 </html>
